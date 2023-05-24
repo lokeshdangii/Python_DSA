@@ -21,3 +21,11 @@ print(s3)
 
 l4 = [ x*2 for x in range(8)]
 print(l4)
+
+
+lc = ["geeks", "for", "geeks", "gfg","ide"]
+lc1 = [x.upper() for x in lc if x.startswith("g")]
+print(lc1)
+
+d = dict(zip(l1,l2))
+print(d)
