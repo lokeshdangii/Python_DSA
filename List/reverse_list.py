@@ -14,8 +14,8 @@ def listReverse(l1):
 
 
 
-
-list2 = [10,20,30,40]
-list1 = [1,2,3,4,5,6,7,8,9,0]
+list1 = ["Hii", "This", "is", "a", "python"]
+list3 = [10,20,30,40]
+list2 = [1,2,3,4,5,6,7,8,9,0]
 rev = listReverse(list1)
 print("The reverse of a list is : ",rev)
