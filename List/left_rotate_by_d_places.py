@@ -1,5 +1,4 @@
-def rotateByOne(list1):
-    d = 2
+def rotateByOne(list1,d):
     n = len(list1)
     
     for a in range(d):
@@ -13,4 +12,13 @@ def rotateByOne(list1):
 
 
 l1 = [2,4,6,8,10]
-print(rotateByOne(l1))
+l2 = [2,4,6,8,10,12,15,16,17,19,22,24]
+d = 4
+print(rotateByOne(l2,d))
+
+# Direct Method
+
+list = [10,20,30,40,50]
+e = 2
+list = list[e:] + list[:e]
+print(list)
