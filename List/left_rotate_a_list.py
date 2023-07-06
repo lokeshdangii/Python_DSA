@@ -6,3 +6,10 @@ print(l)
 
 # l = l + [80]
 # print(l)
+
+
+# Another Method that is pop append method
+
+l2 = [2,4,6,8,10]
+l2.append(l2.pop(0))
+print(l2)
